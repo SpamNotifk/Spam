@@ -53,7 +53,7 @@ victimForm.addEventListener("submit", (e) => {
   })
     .then((response) => {
       if (response.ok) {
-        alert("تم إرسال المعلومات بنجاح!");
+        alert("جار ارسال الاسبام الخاص بك يرجى الانتضار لحيت اكمل طلبك ⚡️");
         victimForm.reset();
       } else {
         alert("حدث خطأ أثناء الإرسال، حاول مرة أخرى.");

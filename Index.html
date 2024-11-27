@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تطبيق SpamCall</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- الصفحة الأولى: إدخال الكود -->
+  <div id="code-page">
+    <h2>أدخل الكود لتفعيل التطبيق</h2>
+    <input type="text" id="activation-code" placeholder="أدخل الكود هنا">
+    <button id="verify-code">تحقق</button>
+    <p id="error-message"></p>
+  </div>
+
+  <!-- الصفحة الثانية: تعبئة الحقول -->
+  <div id="form-page" style="display: none;">
+    <h2>أدخل بيانات الضحية</h2>
+    <form id="victim-form">
+      <label for="phone">رقم الهاتف:</label>
+      <input type="text" id="phone" placeholder="أدخل رقم الهاتف" required>
+
+      <label for="name">اسم الضحية:</label>
+      <input type="text" id="name" placeholder="أدخل اسم الضحية" required>
+
+      <label for="location">موقع الضحية:</label>
+      <input type="text" id="location" placeholder="أدخل موقع الضحية" required>
+
+      <label for="type">نوع الإرسال:</label>
+      <select id="type" required>
+        <option value="بيع بقره">بيع بقره</option>
+        <option value="عاهره">عاهره</option>
+      </select>
+
+      <button type="submit">إرسال</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
